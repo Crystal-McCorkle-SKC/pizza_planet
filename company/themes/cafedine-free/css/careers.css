@@ -1,6 +1,27 @@
+body {
+    background: white;
+    text-align: center;
+}
 .section-header {
     background: url("../images/pizzamaker.jpg") 50% 50% no-repeat;
     background-size: cover;
-    padding: calc(70px + 9rem) 0 9rem;
-    position: relative;
+    padding: calc(70px + 9rem) 0 9rem; 
+    /*position: relative; */
   }
+
+
+  /*#jobs {
+    background: #fff;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }*/
+
+
+.positions {
+    padding-bottom: 10px;
+    margin-top: 2.5em;
+}
+  
+
+ 
+  
