@@ -1,0 +1,26 @@
+body {
+    background: white;
+    text-align: center;
+    color: white;
+}
+.section-header {
+    background: url("../images/pizzamaker.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    /*padding: calc(70px + 9rem) 0 9rem; 
+    /*position: relative; */
+  }
+
+.positions {
+    padding-bottom: 10px;
+    margin-top: 85px;
+} 
+  
+.btn {
+    background-color: #e7272d;
+    color: white;
+    margin: 50px 0 -50px 0;
+    border-radius: 16px;
+    padding: 25px;
+}
+ 
+  

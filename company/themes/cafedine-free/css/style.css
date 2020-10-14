@@ -32,9 +32,12 @@ VERSION:	1.0
 * ----------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Cardo:400,700|Cookie|Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 html {
   overflow-x: hidden;
 }
+
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -84,6 +87,10 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 14px;
+}
+
+#text-black {
+  color: black
 }
 
 .text-sm {
@@ -174,6 +181,10 @@ h6, .h6 {
   padding: .3rem .7rem;
 }
 
+.cool-font {
+  font-family: 'Russo One', sans-serif;
+}
+
 .section {
   padding: 120px 0px;
 }
@@ -209,9 +220,12 @@ h6, .h6 {
 }
 
 .font-extra {
-  font-family: "Cookie", cursive;
+  font-family: "Russo One", sans-serif;
 }
-
+.font-amd {
+  font-size: 30px;
+  line-height: 40px;
+}
 .font-md {
   font-size: 36px;
   line-height: 46px;
@@ -238,6 +252,10 @@ a:hover {
 
 .text-md-2 {
   font-size: 26px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px #000000
 }
 
 .secondary-bg {
@@ -521,6 +539,7 @@ ul.dropdown-menu > li > a:hover,
 
 .navbar-expand-lg.main-nav .navbar-brand {
   color: #fff;
+  width: 150px;
 }
 
 .navbar-toggler {
@@ -690,7 +709,7 @@ ul.dropdown-menu > li > a:hover,
 }
 
 .cta {
-  background: url("../images/banner/cta-bg.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/Pizza_hand.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
   position: relative;
 }
