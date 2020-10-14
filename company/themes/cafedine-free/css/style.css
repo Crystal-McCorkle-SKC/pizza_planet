@@ -539,6 +539,7 @@ ul.dropdown-menu > li > a:hover,
 
 .navbar-expand-lg.main-nav .navbar-brand {
   color: #fff;
+  width: 150px;
 }
 
 .navbar-toggler {
