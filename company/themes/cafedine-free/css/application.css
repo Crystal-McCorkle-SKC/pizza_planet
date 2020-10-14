@@ -1,0 +1,43 @@
+
+.section-header {
+    background: url("../images/jobs.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    /*padding: calc(70px + 9rem) 0 9rem; 
+    position: relative; */
+  }
+
+body {
+    background: white;
+    /*text-align: center;
+    /*color: white; */
+} 
+
+.positions {
+    margin: 50px 0 50px 0;
+}
+
+.btn {
+    background-color: #e7272d;
+    color: white;
+    /*margin: 50px 0 -50px 0;*/
+    margin: -25px 0 15px 0;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.app {
+    padding: 25px;
+    margin: auto 0;
+}
+
+.form-group {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+
+
+
