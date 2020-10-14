@@ -1,0 +1,19 @@
+/*Playing!*/
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+ p {
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 900;
+    margin: 0;
+    background: url(../images/cat.gif) no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0) ;
+  }   

@@ -5,63 +5,26 @@
     position: relative; 
   }
 
-  ftco-animate {
-    opacity: 0;
-    visibility: hidden;
+.btn {
+    background-color: #e7272d;
+    color: white;
+    margin: 50px 0 -50px 0;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.our-pizzas {
+    padding-bottom: 10px;
+    margin-top: 85px;
 }
 
 
-/*.ftco-menu {
-    position: relative;
-    width: 100%;
-    display: block; }
-
-.ftco-menu .nav-pills p {
-    margin-bottom: 0; }
-.ftco-menu .nav-pills .nav-link {
-    border-radius: 0;
-    margin-bottom: 0;
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    position: relative;
-    display: inline-block;
-    border: 1px solid red;
-    margin-left: 5px;
-    margin-right: 5px; }
-.ftco-menu .nav-pills .nav-link.active, .ftco-menu .nav-pills .nav-link:hover {
-    color: black;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    background: red;
-    border: 1px solid transparent; }
-.ftco-menu .nav-pills .nav-link.active:after, .ftco-menu .nav-pills .nav-link:hover:after {
-    opacity: 1; }
-@media (max-width: 767.98px) {
-        .ftco-menu .nav-pills .nav-link.active:after, .ftco-menu .nav-pills .nav-link:hover:after {
-            opacity: 0; } }
-@media (max-width: 767.98px) {
-        .ftco-menu .nav-pills .nav-link {
-          display: block;
-          width: 100%;
-          margin-bottom: 5px; } } 
-
-
-
-
-
-/*Adding this in for now--testing*/
-
-/*
-#portfolio {
-    background: #f7f7f7;
-    padding: 80px 0;
+#delivery {
+    background: white;
+    padding: 10% 0;
   }
   
-  #portfolio #portfolio-flters {
+  #delivery #delivery-flters {
     padding: 0;
     margin: 0 auto 25px auto;
     list-style: none;
@@ -69,41 +32,40 @@
     border-radius: 50px;
   }
   
-  #portfolio #portfolio-flters li {
+  #delivery #delivery-flters li {
     cursor: pointer;
     display: inline-block;
     padding: 12px 18px 14px 18px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
-    color: #666666;
+    color: white;
     margin: 0 5px 10px 5px;
     transition: all ease-in-out 0.3s;
     background: white;
     border-radius: 4px;
   }
   
-  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-    color: #fff;
-    background: red;
-  }
+  #delivery #delivery-flters li:hover, #delivery #delivery-flters li.filter-active {
+    color: white;
+  } 
   
-  #portfolio #portfolio-flters li:last-child {
+  #delivery #delivery-flters li:last-child {
     margin-right: 0;
   }
   
-  #portfolio .portfolio-item {
+  #delivery .delivery-item {
     margin-bottom: 30px;
     overflow: hidden;
   }
   
-  #portfolio .portfolio-item img {
+  #delivery .delivery-item img {
     position: relative;
     top: 0;
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
   
-  #portfolio .portfolio-item .portfolio-info {
+  #delivery .delivery-item .delivery-info {
     opacity: 0;
     position: absolute;
     left: 15px;
@@ -111,23 +73,23 @@
     bottom: -50px;
     z-index: 3;
     transition: all ease-in-out 0.3s;
-    background: red;
+    background: #e7272d;
     padding: 15px 20px;
   }
   
-  #portfolio .portfolio-item .portfolio-info h4 {
+  #delivery .delivery-item .delivery-info h4 {
     font-size: 18px;
-    color: #fff;
+    color: white;
     font-weight: 600;
   }
   
-  #portfolio .portfolio-item .portfolio-info p {
-    color: #fff;
+  #delivery .delivery-item .delivery-info p {
+    color: white;
     font-size: 14px;
     margin-bottom: 0;
   }
   
-  #portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
+  #delivery .delivery-item .delivery-info .preview-link, #delivery .deliveryitem .delivery-info .details-link {
     position: absolute;
     right: 50px;
     font-size: 24px;
@@ -136,24 +98,27 @@
     transition: ease-in-out 0.3s;
   }
   
-  #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: red;
+  #delivery .delivery-item .delivery-info .preview-link:hover, #delivery .delivery-item .delivery-info{
+    color: #e7272d;
   }
   
-  #portfolio .portfolio-item .portfolio-info .details-link {
+  #delivery .delivery-item .delivery-info .details-link {
     right: 15px;
+    color: white;
   }
   
-  #portfolio .portfolio-item:hover img {
+  #delivery .delivery-item:hover img {
     top: -30px;
   }
   
-  #portfolio .portfolio-item:hover .portfolio-info {
+  #delivery .delivery-item:hover .delivery-info {
     opacity: 1;
     bottom: 0;
-  } */
+  } 
 
 
 
 
 
+
+  
