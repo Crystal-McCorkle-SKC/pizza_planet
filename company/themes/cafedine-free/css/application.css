@@ -20,15 +20,15 @@ body {
     background-color: #e7272d;
     color: white;
     /*margin: 50px 0 -50px 0;*/
-    margin: -25px 0 15px 0;
+    margin: 15px 0 20px 0;
     border-radius: 16px;
     padding: 25px;
 }
 
 .app {
     padding: 25px;
-    margin: auto 0;
-}
+    margin: auto;
+} 
 
 .form-group {
     color: black;
@@ -37,29 +37,6 @@ body {
 p {
     color: black;
 }
-
-
-
-
-
-
-/*Playing*/
-/*.custom-control-label:before{
-    background-color:red;
-  } */
-  /*.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
-    background-color: #e7272d; 
-  } 
-  .custom-checkbox2 .custom-control-input2:checked~.custom-control-label2::before{
-    background-color: #e7272d; 
-  } */
-
-/*.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-    background-color:red;
-} */
-
-
-
 
 .checkbox {
     display: inline-flex;
@@ -106,6 +83,8 @@ p {
 .checkbox > input:active {
     border: 2px solid black;
 }
+
+
 
 
 
