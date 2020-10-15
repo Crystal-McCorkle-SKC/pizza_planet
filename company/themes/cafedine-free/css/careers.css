@@ -23,4 +23,6 @@ body {
     padding: 25px;
 }
  
-  
+.widget {
+    text-align: left;
+}
