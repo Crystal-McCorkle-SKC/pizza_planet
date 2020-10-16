@@ -8,8 +8,9 @@
 .btn {
     background-color: #e7272d;
     color: white;
-    margin: 50px 0 -50px 0;
-    padding: 25px;
+    /*margin: 50px 0 -50px 0; */
+    margin: 50px auto;
+    padding: 25px; 
     border-radius: 16px;
 }
 
